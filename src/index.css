@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.hero{
+    border: 1px solid gray;
+    padding: 3px;
+    margin:auto;
+    border-left: 8px solid rgb(214, 78, 100);
+    max-width:600px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    justify-content: space-between;
+    box-shadow: 2px 2px 4px  rgb(222, 168, 177);;
+}
+
+.hero div:nth-child(1){
+    flex: 60%;
+}
+
+body{
+    background-color: rgb(245, 245, 245);
+}
+
+button{
+    padding: 8px 10px;
+    margin: 3px;
+    background-color: rgb(214, 78, 100);
+    color: whitesmoke;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 90%;
+}
